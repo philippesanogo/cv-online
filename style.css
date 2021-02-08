@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+::root {
+    --darkBlue : #26293D;
+    --darkPink : #F31D58;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.container-all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container-left {
+    background:  #F31D58;
+    width: 20%;
+    height: 100%;
+}
+
+.container-right {
+    background:  #26293D;
+    width: 80%;
+    height: 100%;
+}
