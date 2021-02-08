@@ -27,14 +27,36 @@ body {
     display: flex;
 }
 
+/* partie gauche */
 .container-left {
     background:  #F31D58;
     width: 20%;
     height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.left {
+    background: yellow;
+    width: 80%;
+    height: 90%;
+}
+
+/* partie droite */
 .container-right {
     background:  #26293D;
     width: 80%;
     height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    background: coral;
+    width: 80%;
+    height: 90%;
 }
