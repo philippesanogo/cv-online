@@ -44,6 +44,22 @@ body {
     width: 100%;
     height: 30%;
     background: darkmagenta;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.identite {
+    width: 90%;
+    height: 10%;
+    background: forestgreen;
+}
+
+.img {
+    width: 90%;
+    height: 90%;
+    background: fuchsia;
 }
 
 .container-nav {
@@ -51,6 +67,8 @@ body {
     height: 70%;
     background: deepskyblue;
 }
+
+
 
 /* partie droite */
 .container-right {
