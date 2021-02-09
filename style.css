@@ -52,13 +52,24 @@ body {
 
 .identite {
     width: 90%;
-    height: 10%;
+    height: 20%;
     background: forestgreen;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.identite p {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+
 }
 
 .img {
     width: 90%;
-    height: 90%;
+    height: 80%;
     background: fuchsia;
 }
 
