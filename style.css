@@ -18,14 +18,13 @@ body {
 }
 
 /* communs */
-.openSans-font {
-    font-family: 'Open Sans', sans-serif;
-}
-.poppin-font {
-    font-family: 'Poppins', sans-serif;
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
 }
 
+
 .titre {
+    font-family: 'Rubik', sans-serif;
     font-size: 1.8rem;
 }
 
